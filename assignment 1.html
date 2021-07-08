@@ -1,0 +1,19 @@
+<html>
+    <h1 >introduction to javascript</h1>
+    <h2 id="xyz"> Sample text</h2>
+    <button onclick="myFunction()"> Click Me </button>
+    <script>
+        
+        function myFunction()
+        {
+            var s = "";
+            for (var i = 0; i < 5; i++) {
+              s += "*" + " ";
+         }
+console.log(s);
+            document.getElementById("xyz").innerHTML=s
+           
+        }
+    </script>
+
+</html>
